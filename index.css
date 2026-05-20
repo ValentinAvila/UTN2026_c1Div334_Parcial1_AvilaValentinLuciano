@@ -1,3 +1,8 @@
+/* 
+    Valentin Luciano Avila
+    UTN - Programación 3 - Div. 132
+*/
+
 /* --- Estilos generales --- */
 * {
     margin: 0;
@@ -8,6 +13,8 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-optical-sizing: auto;
+    /* Punto F */
+    background-color: #161616;
 }
 
 ul {
@@ -23,10 +30,16 @@ header {
     display: flex;
     padding: 10px 20px;
     box-shadow: 0 2px 5px #0000001a;
+    /* Punto C */
+    background-color: #000000;
+    position: sticky; /* Agregado estético y funcional */
+    top: 0;
 }
 
 #icono-principal {
-    width: 190px;
+    /* Punto L */
+    width: 55px; 
+    height: 55px;
 }
 
 #titulo-principal {
@@ -80,13 +93,24 @@ a:hover {
 .li-hamburguesa,
 .li-bebida,
 .li-tragos {
-    background-color: brown;
+    /* Punto E */
+    background-color: #000000;
     color: white;
     width: 250px;
+    /* Punto G y H */
+    padding: 15px;
+    margin: 20px;
+    /* Punto I */
+    border-radius: 20px;
 }
 
 .img-producto {
-    width: 100px;
+    /* Punto J */
+    width: 100%;
+    height: 180px;
+    /* Agregado estético personal */
+    border-radius: 15px;
+    
 }
 
 .nombre-producto {
@@ -94,14 +118,20 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
+    /* Punto K */
+    text-align: center;
 }
 
 .precio-producto{
     font-weight: 600;
+    /* Punto A */
+    color: #ca9013;
     margin-bottom: 10px;
 }
 
 .descripcion-producto {
+    /* Punto B */
+    color: #808080;
     min-height: 110px;
     max-height: 110px;
 }
@@ -133,4 +163,6 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 13px;
+    /* Punto D */
+    background-color: #000000;
 }

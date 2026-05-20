@@ -1,3 +1,8 @@
+/* 
+    Valentin Luciano Avila
+    UTN - Programación 3 - Div. 132
+*/
+
 /* --- Estilos generales --- */
 * {
     margin: 0;
@@ -22,6 +27,8 @@ li {
 /* --- Estilos Header (encabezado) --- */
 header {
     display: flex;
+    position: sticky; /* Agregado estético y funcional */
+    top: 0;
     background-color: #fff;
     padding: 10px 20px;
     box-shadow: 0 2px 5px #0000001a;
